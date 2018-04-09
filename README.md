@@ -39,15 +39,5 @@ Notes:
 -  MailGun (https://www.mailgun.com/) - Used for application emails - Cloud Function is `mailGunFunction`
 -  Cloud Convert (https://cloudconvert.com/) - Converts all documents to HTML and generates a thumbnail image for each.  Cloud function is `CloudConvertApi`
 
-## Icons
 
-The hopscotch icon font will automatically be compiled and linked in CSS if you change any icons in the `/resource/svg` folder. To view a preview of all of the icons, see `/resource/fonts/icons-preview.html`. To use icons in templates, for example: `<i class="icon-add"></i>`.
-
-## Support
-
-Contact hello@hopscotch.co
-
-## Copyright and license
-
-All applicable code copyright Hopscotch 2018.  Open-source projects with their respective licenses.
 
