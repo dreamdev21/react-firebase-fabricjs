@@ -1,0 +1,416 @@
+form {
+  margin: 0;
+  padding: 0;
+}
+
+button, input, optgroup, select, textarea {
+    line-height: 1.15;
+    margin: 0;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+fieldset p {
+	position: relative;
+	margin: 20px 0;
+	font-size: 1.4rem;
+	text-align: left;
+}
+
+input {
+  border: 1px solid #D6DAE1;
+  background: #fff;
+  border-radius: 4px;
+  color: #373D47;
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: 'proxima_novalight';
+  display: block;
+  padding: 15px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input:disabled {
+  background: #F6F9FC;
+}
+
+input:focus, input:hover {
+  border-color: #4FC5FF;
+  outline: none;
+}
+
+input.error {
+  border-color: #FA656F;
+}
+
+span.error-message {
+  display: block;
+  padding: 0 0 0 30px;
+  color: #FA656F;
+  text-align: left;
+}
+
+label {
+  color: #898E96;
+  letter-spacing: 0.3px;
+  display: block;
+  margin: 0 0 5px 0;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+button {
+  background:none;
+  border:none;
+  border-radius:0;
+}
+
+textarea {
+  resize: none;
+}
+
+.select-style {
+  border: 1px solid #E6E8ED;
+  width: 100px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  padding-right: 25px;
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 28px;
+}
+
+.select-style:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 5px solid #ADB3BC;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  top: 11px;
+  right: 7px;
+}
+
+.select-style select {
+  padding: 5px 10px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  color: #585E68;
+  font-size: 1.4rem;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.15;
+}
+
+/* -- Specific Select -- */
+#font-type-selector {
+  width: 220px;
+}
+
+/* -- Checkbox Styling -- */
+.checkbox-container input[type=checkbox] {
+  visibility: hidden;
+}
+
+.checkbox-container > label {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.checkbox-container span {
+  width: 25px;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  height: 25px;
+  top: 5px;
+}
+
+.checkbox-container span label {
+  cursor: pointer;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  border-radius: 25px;
+  background: #31D9C8;
+}
+
+.checkbox-container span label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 9px;
+  background: transparent;
+  top: 6px;
+  left: 5px;
+  border: 3px solid #fff;
+  border-top: none;
+  border-right: none;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.checkbox-container span label:hover::after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+
+.checkbox-container span input[type=checkbox]:checked + label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* -- Non Authenticated Page Forms -- */
+.unauthenticated-user-form {
+  text-align: center;
+}
+
+.unauthenticated-user-form p:first-of-type {
+	color: #898E96;
+	font-size: 1.6rem;
+	padding: 0 0 20px 0;
+	text-align: center;
+}
+
+.unauthenticated-user-form label {
+  color: #4FC5FF;
+  font-size: 1.4rem;
+  text-transform: lowercase;
+  background: #fff;
+  position: absolute;
+  top: -17px;
+  left: 12px;
+  padding: 5px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.unauthenticated-user-form input:focus + label {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+.unauthenticated-user-form input:-moz-placeholder {
+  color: #898E96;
+}
+.unauthenticated-user-form input::-moz-placeholder {
+  color: #898E96;
+}
+.unauthenticated-user-form input:-ms-input-placeholder {
+  color: #898E96;
+}
+.unauthenticated-user-form input::-webkit-input-placeholder {
+  color: #898E96;
+}
+
+.unauthenticated-user-form input:focus:-moz-placeholder {
+  color: transparent;
+}
+.unauthenticated-user-form input:focus::-moz-placeholder {
+  color: transparent;
+}
+.unauthenticated-user-form input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.unauthenticated-user-form input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.unauthenticated-user-form legend {
+  color: #373D47;
+  font-weight: 300;
+  font-size: 2.2rem;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border:none;
+}
+
+/* -- Minimal Form -- */
+.minimal-form {
+  max-width: 740px;
+  text-align: center;
+  margin: 80px auto 0;
+}
+
+.minimal-form legend {
+    font-size: 2.2rem;
+    color: #373D47;
+    line-height: 35px;
+    display: block;
+    border: none;
+    margin: 0;
+}
+
+.minimal-form input:-moz-placeholder {
+  color: #898E96;
+}
+.minimal-form input::-moz-placeholder {
+  color: #898E96;
+}
+.minimal-form input:-ms-input-placeholder {
+  color: #898E96;
+}
+.minimal-form input::-webkit-input-placeholder {
+  color: #898E96;
+}
+
+.minimal-form input:focus:-moz-placeholder {
+  color: transparent;
+}
+.minimal-form input:focus::-moz-placeholder {
+  color: transparent;
+}
+.minimal-form input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.minimal-form input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.minimal-form input {
+  border: none;
+  border-bottom: 1px solid #ADB3BC;
+  font-size: 2.8rem;
+  color: #373D47;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 0;
+  background: transparent;
+  max-width: 600px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.minimal-form p {
+  color: #585E68;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+.minimal-form button[type="submit"] {
+  margin: 50px auto 0;
+  display: block;
+}
+
+/* -- Authenticated Internal -- */
+.medium-width.authenticated legend,
+.medium-width.authenticated h2 {
+  color: #373D47;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #E6E8ED;
+  width: 100%;
+  padding: 0 0 10px 0;
+}
+
+/* -- Reply Form -- */
+form.reply-form textarea, form.edit-item textarea {
+  height: 90px;
+  width: 100%;
+  border: 1px solid #E6E8ED;
+  border-radius: 4px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:5px 10px;
+}
+form.reply-form div {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row wrap;
+  flex-direction: row wrap;
+  -webkit-justify-content: space-around;
+  justify-content: flex-end;
+}
+form.reply-form a {
+  color: #9B9B9B;
+  flex: 2;
+  text-align: right;
+  padding: 10px 10px 0 0;
+}
+form.reply-form button {
+  flex: 0.5;
+  margin: 0;
+}
+
+form.edit-item textarea:focus, form.edit-item textarea:hover{
+    border-color: #4FC5FF;
+    outline: none;
+}
+
+/* -- Reviewer Comment -- */
+form.reviewer-comment {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+form.reviewer-comment textarea {
+  background: #FFFFFF;
+  border: 1px solid #E6E8ED;
+  border-radius: 4px;
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+form.reviewer-comment textarea:-moz-placeholder {
+  color: #ADB3BC;
+}
+form.reviewer-comment textarea::-moz-placeholder {
+  color: #ADB3BC;
+}
+form.reviewer-comment textarea:-ms-input-placeholder {
+  color: #ADB3BC;
+}
+form.reviewer-comment textarea::-webkit-input-placeholder {
+  color: #ADB3BC;
+}
+form.reviewer-comment button {
+  margin: 5px 0 0 0;
+  align-self: flex-end;
+}

@@ -1,0 +1,29 @@
+
+.work-loading-view {
+    width: 100%;
+    height: 240px;
+    background-color: lightgray;
+    border-width: 0px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.work-loading-container {
+    width: 100%;
+    height: 240px;
+    background-color: white;
+    border-width: 0px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+/*  Not sure what the above was trying to accomplish -- */
+
+.work-loading-view.hide {
+    height: 0px;
+}
+

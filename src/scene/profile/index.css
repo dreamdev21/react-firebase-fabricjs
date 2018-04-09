@@ -1,0 +1,164 @@
+.profile-photo {
+  width: 90px;
+  height: 90px;
+  background: #4FC5FF;
+  border-radius: 90px;
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  margin: 0 auto 30px;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.profile-image-button{
+    color: #4FC5FF;
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'proxima_novalight';
+    font-size: 1.6rem;
+    width: 180px;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.7px;
+    padding: 10px 20px;
+    text-align: center;
+	cursor:pointer;
+}
+
+.profile-image-button:hover, .profile-image-button:focus{
+    color: #16B1ED;
+    -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.authenticated input {
+  max-width: 500px;
+}
+
+form#update-profile-image button {
+  margin: 0;
+}
+
+#import-options {
+  margin: 40px 0 0 0;
+}
+#import-options li {
+  padding: 0 200px 0 65px;
+  position: relative;
+  margin: 0 0 40px 0;
+}
+#import-options i {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 42px;
+  height: 36px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+#import-options h3 {
+  color: #373D47;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+#import-options p {
+  font-size: 1.4rem;
+  padding: 0;
+  margin: 0;
+  color: #898E96;
+}
+#import-options button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.profile-close-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background: #FA656F;
+    margin-left: 15px;
+    outline: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+
+.profile-sync-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.profile-sync-image {
+    width: 42px;
+    height: 36px;
+    margin-right: 30px;
+    object-fit: contain
+}
+
+.profile-sync-title {
+    color: #373D47;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-sync-subtitle {
+    color: #898E96;
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-sync-button {
+    background: #4FC5FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    outline: 0px;
+    margin: 20px 0;
+    height: 50px;
+    width: 180px;
+    float: right;
+    font-size: 1.6rem
+}
+
+.profile-save-button {
+    background: #4FC5FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    outline: 0px;
+    margin: 20px 0;
+    height: 50px;
+    width: 180px;
+    float: left;
+    font-size: 1.6rem
+}
+
+.icon-google-drive {
+  background-image: url(../../resource/images/google-drive.png);
+}
+
+.icon-box {
+  background-image: url(../../resource/images/box.png);
+}
+
+.icon-dropbox {
+  background-image: url(../../resource/images/dropbox.png);
+}

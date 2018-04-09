@@ -1,0 +1,22 @@
+.work-progress-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%
+}
+
+.work-progress-circle {
+    width: 160px;
+    height: 160px;
+}
+
+.work-progress-text-view {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px
+}

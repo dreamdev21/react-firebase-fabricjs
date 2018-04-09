@@ -1,0 +1,6 @@
+span.error-message {
+    display: block;
+    padding: 0 0 0 30px;
+    color: #FA656F;
+    text-align: left;
+}

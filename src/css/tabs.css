@@ -1,0 +1,55 @@
+nav.tabs.pill {
+  margin: 0;
+  padding: 0 20px 15px;
+  position: relative;
+}
+nav.tabs.pill ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row wrap;
+  flex-direction: row wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+nav.tabs.pill li {
+  width: 50%;
+  flex: 1 0;
+}
+nav.tabs.pill button {
+  font-size: 1.6rem;
+  color: #7795F8;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  background: #FFFFFF;
+  -moz-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+  width:100%;
+}
+nav.tabs.pill button:hover, nav.tabs.pill button:focus {
+  text-decoration: none;
+}
+nav.tabs.pill li:first-of-type button {
+  border-radius: 4px 0 0 4px;
+}
+nav.tabs.pill li:last-of-type button {
+  border-radius: 0 4px 4px 0;
+}
+nav.tabs.pill button.current, nav.tabs.pill button:hover, nav.tabs.pill button:focus {
+  color: #FFFFFF;
+  background: #7795F8;
+}
+
+nav.tabs.icons button.current i, nav.tabs.icons button:focus i, nav.tabs.icons button:hover i {
+  color: #373D47;
+}
+
+.tab-content, .annotation-content {
+  display: none;
+}
+
+.tab-content.current, .annotation-content.current {
+  display: block;
+}

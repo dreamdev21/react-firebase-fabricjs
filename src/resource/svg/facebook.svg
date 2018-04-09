@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="104px" viewBox="0 0 51 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="50.1774408 52.0000917 50.1774408 104 0 104 0 52.0000917 0 0.000183333333 50.1774408 0.000183333333"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook-logo">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M0,24.4715116 L7.64870327,24.4715116 L7.64870327,17.0386411 C7.64870327,13.7579826 7.73092529,8.70132844 10.1112527,5.57072509 C12.6210798,2.25306664 16.0641269,0.000183333333 21.9882233,0.000183333333 C31.6410883,0.000183333333 35.702856,1.37740214 35.702856,1.37740214 L33.7891385,12.7117074 C33.7891385,12.7117074 30.6030353,11.7887652 27.6286538,11.7887652 C24.6522167,11.7887652 21.9882233,12.8555959 21.9882233,15.8279219 L21.9882233,24.4715116 L34.1899709,24.4715116 L33.338973,35.5427064 L21.9882233,35.5427064 L21.9882233,74 L7.64870327,74 L7.64870327,35.5427064 L0,35.5427064 L0,24.4715116 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,73 @@
+
+button.tab-button[type="button"], button.tab-button-selected[type="button"] {
+    font-size: 1.8rem;
+    color: #898E96;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+    min-width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0px;
+	width:auto;
+	border-radius:0;
+	box-shadow:none;
+	letter-spacing: 0.3px;
+	text-transform:none;
+}
+
+button.tab-button:after{
+    content: '';
+    background: transparent;
+    border-radius: 2px;
+    height: 4px;
+    display: block;
+    position: relative;
+    top: 5px;
+}
+
+button.tab-button[type="button"]:hover, button.tab-button[type="button"]:focus, button.tab-button-selected[type="button"]{
+    color: #373D47;
+    text-decoration: none;
+}
+
+button.tab-button[type="button"]:hover:after, button.tab-button[type="button"]:focus:after, button.tab-button-selected[type="button"]:after{
+    content: '';
+    background: #4FC5FF;
+    border-radius: 2px;
+    height: 4px;
+    display: block;
+    position: relative;
+    top: 5px;
+}
+
+.loginButton {
+    background: #4FC5FF;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.7px;
+    width: 100%;
+    border-radius: 4px;
+    height: auto;
+    text-transform: capitalize;
+    padding: 15px;
+    position: relative
+}
+
+.spinnerView {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 10px
+}
+
+.socialTitle {
+    font-size: 1.4rem;
+    color: #585E68;
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,132 @@
+.nav-menu {
+  display: block;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.nav-item {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.nav-item > a {
+  position: relative;
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0 0 -1px 0;
+  border: 1px solid transparent;
+}
+
+.nav-item > a:focus,
+.nav-item > a.open {
+  border: 1px solid #dedede;
+}
+
+.nav-item > a.open {
+  background-color: #fff;
+  border-bottom: none;
+}
+
+.sub-nav {
+  position: absolute;
+  display: none;
+  top: 3.1em;
+  margin-top: -1px;
+  padding: 20px;
+  background: #FFFFFF;
+  -moz-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  right: 0;
+  font-size: 1.6rem;
+  width: 270px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.sub-nav.project-add-dropdown {
+  position: absolute;
+  top: 70px;
+  left: auto;
+  bottom: auto;
+  padding: 0;
+  -moz-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  width: auto;
+  right: inherit;
+}
+
+#add-project-computer label {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding-top: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.sub-nav.open {
+  display: block;
+}
+
+.sub-nav ul {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.sub-nav li {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-nav li.user-name {
+  color: #454551;
+}
+
+.sub-nav li.user-email {
+  color: #9B9B9B;
+  font-size: 1.4rem;
+  border-bottom: .5px solid #CFCFCF;
+  padding: 0 0 10px 0;
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.sub-nav li a {
+  color: #454551;
+  display: block;
+}
+
+header.projects .sub-nav.filter-results li a {
+  color: #585E68;
+}
+
+header.main .sub-nav li:last-of-type {
+  margin: 15px 0 0 0;
+}
+
+a.nav-item i.icon-arrow-up {
+  display: none;
+}
+
+a.nav-item:hover i.icon-arrow-down, a.nav-item:focus i.icon-arrow-down, a.nav-item.current i.icon-arrow-down, a.nav-item.open i.icon-arrow-down {
+  display: none;
+}
+a.nav-item:hover i.icon-arrow-up, a.nav-item:focus i.icon-arrow-up, a.nav-item.current i.icon-arrow-up, a.nav-item.open i.icon-arrow-up {
+  display: block;
+}

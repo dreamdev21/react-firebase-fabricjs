@@ -1,0 +1,162 @@
+/*
+* === HEADER ===
+*/
+
+header.main {
+  background: #fff;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 25px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+  z-index: 2;
+  -moz-box-shadow: 0 0px 2px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* -- Logo -- */
+#logo {
+  color: #373D47;
+  font-family: 'proxima_novabold';
+  font-size: 25px;
+  letter-spacing: 1px;
+  display: inline-block;
+  background: #4FC5FF;
+  line-height: 13px;
+  padding: 0 0px 0 5px;
+  border-radius: 15px;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+#logo:hover, #logo:focus {
+  text-decoration: none;
+}
+
+.logo-inline {
+  color: #373D47;
+  font-family: 'proxima_novabold';
+  font-size: 25px;
+  letter-spacing: 1px;
+  display: inline-block;
+  background: #FFB42E;
+  line-height: 13px;
+  padding: 0 0px 0 5px;
+  border-radius: 15px;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+/* -- Settings Header -- */
+header.settings ul {
+  display: flex;
+}
+
+header.settings button {
+  font-size: 2.2rem;
+  margin: 0 60px 0 0;
+  color: #898E96;
+}
+
+header.settings button.current,
+header.settings button:focus,
+header.settings button:hover {
+  color: #373D47;
+  text-decoration: none;
+}
+
+.medium-width.authenticated.header-container {
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+/* -- Item Header -- */
+header.item-header #project-back {
+  font-size: 1.8rem;
+  color: #585E68;
+}
+header.item-header #project-back i {
+  color: #D6DAE1;
+  font-size: 23px;
+  position: relative;
+  top: 2px;
+  margin: 0 5px 0 0;
+}
+
+header.item-header #project-back:hover,
+header.item-header #project-back:focus {
+  color: #373D47;
+  text-decoration: none;
+}
+
+header.item-header #project-back:hover i,
+header.item-header #project-back:focus i {
+  color: #4FC5FF;
+}
+
+/* -- Logged Out Nav (signup, login, forgot password) -- */
+header.unauthenticated {
+  background: none;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  display: block;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header.unauthenticated #logo {
+  display: inline-block;
+}
+
+nav#login-nav {
+    padding: 0 0 40px 0;
+}
+
+.leftView {
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.logoButton {
+    color: #373D47;
+    font-size: 25px;
+    letter-spacing: 1px;
+    outline: 0px;
+    background-color: transparent;
+    border-width: 0px;
+    height: 40px
+}
+
+.logoView {
+    background: #4FC5FF;
+    display: inline-block;
+    padding: 0 0 0 5px;
+    border-radius: 20px;
+    height: 40px;
+    margin: 10px
+}
+
+.header-username-view {
+  z-index: 999;
+}
+
+/* Mobile Layout Media Queries */
+@media only screen and (max-width: 767px) {
+	header.settings button {
+	    margin: 0 20px 0 0;
+	}
+}

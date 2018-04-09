@@ -1,0 +1,31 @@
+.user-photo {
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(79, 196, 255);
+    border-radius: 45px;
+}
+
+header.projects nav li.main-nav-link .user-photo{
+    background: rgb(79, 197, 255);
+    background-size: contain
+}
+
+header.projects nav li.main-nav-link:first-of-type{
+    height: 45px;
+    vertical-align: middle;
+    line-height: 45px;
+}
+
+.profile-name {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    font-size: 1.6rem;
+    color: rgb(88, 94, 104);
+}

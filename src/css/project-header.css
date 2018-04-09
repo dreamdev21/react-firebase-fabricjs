@@ -1,0 +1,91 @@
+header.projects {
+  position: relative;
+}
+header.projects .button.sq:last-of-type {
+  margin: 0;
+}
+header.projects nav li.main-nav-link {
+  text-align: right;
+}
+
+header.projects nav li.main-nav-link .profile-name {
+  position: relative;
+  top: 0;
+  left: 60px;
+}
+header.projects .sub-nav.filter-results {
+  top: 2em;
+  font-size: 1.6rem;
+  width: 140px;
+  text-align: left;
+}
+
+#nav-sort-project {
+  padding-right: 15px;
+}
+#nav-sort-project i {
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  color: #898E96;
+  font-weight: 300;
+  font-size: 9px;
+}
+
+/* -- Search Form --*/
+form.search input {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+form.search button.icon {
+  color: #ADB3BC;
+  font-size: 22px;
+  width: 21px;
+}
+
+/* -- Add to Project Dropdown -- */
+#add-project-list {
+  display: flex;
+}
+#add-project-list li {
+  text-align: center;
+  border-right: 1px solid #E6E8ED;
+  width: 125px;
+}
+#add-project-list li a {
+  display: block;
+  font-size: 1.4rem;
+  color: #585E68;
+  padding: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+#add-project-list li a:hover, #add-project-list li a:focus, #add-project-list li label:hover, #add-project-list li label:focus {
+  text-decoration: none;
+  background: #F6F9FC;
+  color: #373D47;
+}
+#add-project-list li i {
+  font-size: 35px;
+  display: block;
+  margin: 0 auto 10px auto;
+  width: 42px;
+  height: 36px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #ADB3BC;
+}
+#add-project-list li i.icon-computer {
+  left: -2px;
+}
+#add-project-list li i.icon-box {
+  background-position: center 13px;
+}
+#add-project-list li:last-of-type {
+  border-right: none;
+}

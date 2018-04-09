@@ -1,0 +1,40 @@
+.share-title {
+    font-size: 2.2rem;
+    color: #373D47;
+    line-height: 35px;
+    margin: 20px 0px;
+}
+
+.share-button-more {
+    color: white;
+    background: #6772E5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 100px;
+    width: 180px;
+    letter-spacing: 0.7px;
+    font-size: 1.6rem;
+    outline: 0px;
+    padding: 15px
+}
+
+.share-button-done {
+    color: white;
+    background: #4FC5FF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 100px;
+    width: 180px;
+    letter-spacing: 0.7px;
+    font-size: 1.6rem;
+    outline: 0px;
+    padding: 15px
+}
+
+.share-button-view {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: row;
+}
+
